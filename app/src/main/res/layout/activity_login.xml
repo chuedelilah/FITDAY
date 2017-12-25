@@ -61,8 +61,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:autoText="false"
                         android:ems="10"
                         android:inputType="textPersonName"
+                        android:singleLine="false"
                         android:text="使用者名稱" />
                 </LinearLayout>
 
@@ -92,11 +94,37 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/LoginBn"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="登入" />
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:layout_weight="1"
+                        android:text="Button"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/LoginBn"
+                        android:layout_width="301dp"
+                        android:layout_height="61dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button1"
+                        android:text="登入"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="47dp"
+                        android:layout_weight="1"
+                        android:text="Button"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -109,18 +137,22 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="29dp"
                 android:layout_weight="1"
                 android:text="Don't have an acount"
                 android:textAlignment="center"
                 android:textSize="18sp" />
 
+
             <Button
                 android:id="@+id/RegistBn"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="61dp"
                 android:layout_weight="1"
-                android:text="註冊" />
+                android:background="@drawable/down_backgroud"
+                android:text="註冊"
+                android:textAlignment="center"
+                android:textSize="20sp" />
 
         </LinearLayout>
     </LinearLayout>
