@@ -22,8 +22,8 @@ import android.widget.Toast;
 
 import java.util.List;
 
-public class home_weight extends AppCompatActivity {
-
+public class home_weight extends AppCompatActivity implements View.OnClickListener  {
+    Button test;
     private final static String TAG = MainActivity.class.getSimpleName();
     private Button button4;
     private BluetoothAdapter mBluetoothAdapter;
@@ -70,7 +70,8 @@ public class home_weight extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_weight);
-
+        test=(Button)findViewById(R.id.B);
+        test.setOnClickListener(this);
         //按鈕事件
         button4 = (Button) findViewById(R.id.button4);
         button4.setOnClickListener(new View.OnClickListener() {
@@ -113,6 +114,15 @@ public class home_weight extends AppCompatActivity {
 
             }
         });
+    }
+    @Override
+    public void onClick(View v) {
+        if(v == test) {
+            Intent intent = new Intent();   //活動
+            intent.setClass(home_weight.this, input_weight.class);    //設定要置換的activity
+            startActivity(intent);      //啟動設定的activity
+            home_weight.this.finish();     //原本舊的activity結束
+        }
     }
 
     private BluetoothAdapter.LeScanCallback mLeScanCallback = new BluetoothAdapter.LeScanCallback() {

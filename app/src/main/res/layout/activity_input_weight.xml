@@ -7,9 +7,10 @@
     tools:context="beans.fitday.input_weight">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="402dp"
+        android:layout_height="224dp"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
@@ -41,45 +42,48 @@
 
         </LinearLayout>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="380dp"
-        android:layout_height="113dp"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="70dp">
-
-        <EditText
-            android:id="@+id/editText3"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
-            android:ems="10"
-            android:hint="請輸入您的體重"
-            android:inputType="textPersonName" />
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="70dp">
 
-        <Button
-            android:id="@+id/back1_Bn"
-            android:layout_width="1dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@drawable/reply_1" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="請輸入您的體重"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/back1_Bn"
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/reply_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="48dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="183dp">
+
+            <Button
+                android:id="@+id/weight_Bn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="確認"
+                android:textSize="24sp" />
+        </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="354dp"
-        android:layout_height="48dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="127dp">
 
-        <Button
-            android:id="@+id/weight_Bn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="確認"
-            android:textSize="24sp" />
-    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>
