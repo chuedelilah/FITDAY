@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FITDAT.iml" filepath="$PROJECT_DIR$/FITDAT.iml" />
+      <module fileurl="file://C:\Users\YuChaoStudent\Desktop\Project\FITDAY\FITDAT.iml" filepath="C:\Users\YuChaoStudent\Desktop\Project\FITDAY\FITDAT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FITDAY.iml" filepath="$PROJECT_DIR$/FITDAY.iml" />
       <module fileurl="file://D:\Android\Projects\FITDAT\FITDAY.iml" filepath="D:\Android\Projects\FITDAT\FITDAY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartExample/MPChartExample.iml" filepath="$PROJECT_DIR$/MPChartExample/MPChartExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://D:\Android\Projects\FITDAT\app\app.iml" filepath="D:\Android\Projects\FITDAT\app\app.iml" />
     </modules>

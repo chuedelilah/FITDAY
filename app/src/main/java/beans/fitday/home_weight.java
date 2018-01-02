@@ -42,7 +42,7 @@ public class home_weight extends AppCompatActivity {
     private static long mBleScanTimeout = 15000;//15000
     private EditText editTextWeight;
 
-    private class xServiceConnection implements ServiceConnection {
+    class xServiceConnection implements ServiceConnection {
 
         public xServiceConnection() {
             super();

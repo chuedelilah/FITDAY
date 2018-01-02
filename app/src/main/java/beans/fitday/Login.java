@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 public class Login extends AppCompatActivity implements View.OnClickListener{
@@ -13,6 +14,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         //getSupportActionBar().hide();
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
         Login  = (Button)findViewById(R.id.LoginBn);
         Login.setOnClickListener(this);
     }

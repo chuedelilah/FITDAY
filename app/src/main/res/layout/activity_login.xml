@@ -7,15 +7,15 @@
     tools:context="beans.fitday.Login">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="431dp"
+            android:layout_height="500dp"
             android:background="@drawable/backgroud"
             android:orientation="vertical">
 
@@ -91,12 +91,20 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="280dp"
                 android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="50sp"
+                    android:visibility="invisible" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <Button
@@ -130,14 +138,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="57dp"
             android:background="@drawable/down_backgroud"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="29dp"
+                android:layout_height="5dp"
                 android:layout_weight="1"
                 android:text="Don't have an acount"
                 android:textAlignment="center"
@@ -147,7 +155,7 @@
             <Button
                 android:id="@+id/RegistBn"
                 android:layout_width="match_parent"
-                android:layout_height="61dp"
+                android:layout_height="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/down_backgroud"
                 android:text="註冊"
