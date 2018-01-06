@@ -30,6 +30,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".home" />
         <activity android:name=".home_weight"></activity>
+        <activity android:name=".FoodActivity"></activity>
+        <activity android:name=".EditActivity"></activity>
+        <activity android:name=".AddActivity"></activity>
         <service android:name=".BluetoothLeService" android:enabled="true"/>
     </application>
 

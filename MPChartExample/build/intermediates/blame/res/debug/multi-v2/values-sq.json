@@ -1,0 +1,100 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\YuChaoStudent\\Desktop\\Project\\FITDAY\\MPChartExample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5ce4057c3b0630361d98194d67504d\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1962",
+                        "endColumns": "100",
+                        "endOffsets": "2058"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\78cad48cfb63de8347a6d60e74ec9165\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\YuChaoStudent\\Desktop\\MPAndroidChart-master\\MPChartExample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\8ba6cd0c2f6060b3eac9f7fcacc4cb62\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1962",
+                        "endColumns": "100",
+                        "endOffsets": "2058"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\5542da8ac0ac4a0abed94dc37adbeebf\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\YuChaoStudent\\Desktop\\Project\\FITDAY\\MPChartExample\\build\\intermediates\\res\\merged\\debug\\values-sq\\values-sq.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5ce4057c3b0630361d98194d67504d\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1962",
+                        "endColumns": "100",
+                        "endOffsets": "2058"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\78cad48cfb63de8347a6d60e74ec9165\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    }
+                }
+            ]
+        }
+    ]
+}

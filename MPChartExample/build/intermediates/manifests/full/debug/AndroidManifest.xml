@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xxmassdeveloper.mpchartexample"
+    android:versionCode="56"
+    android:versionName="3.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xxmassdeveloper.mpchartexample.notimportant.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xxmassdeveloper.mpchartexample.LineChartActivity1" /> <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+        <activity android:name="com.xxmassdeveloper.mpchartexample.LineChartActivity2" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.LineChartTime" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.BarChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.HorizontalBarChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.PieChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.PiePolylineChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.MultiLineChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.BarChartActivityMultiDataset" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.DrawChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.ScatterChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.BubbleChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.fragments.SimpleChartDemo" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.ListViewBarChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.ListViewMultiChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.StackedBarActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.AnotherBarActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.InvertedLineChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.CandleStickChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.CubicLineChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.RadarChartActivitry" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.LineChartActivityColored" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.DynamicalAddingActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityLine" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityBar" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityHorizontalBar" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityScatter" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityCandle" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityBubble" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityPie" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityRadar" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmMainActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.RealtimeLineChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.CombinedChartActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.PerformanceLineChart" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.BarChartActivitySinus" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.ScrollViewActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.StackedBarActivityNegative" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.realm.RealmWikiExample" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.BarChartPositiveNegative" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.FilledLineActivity" />
+        <activity android:name="com.xxmassdeveloper.mpchartexample.HalfPieChartActivity" />
+    </application>
+
+</manifest>

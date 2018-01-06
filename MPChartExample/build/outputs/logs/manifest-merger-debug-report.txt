@@ -1,0 +1,281 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:2:1-71:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\efea4dabdb2080f3ae2a3fc1483a55b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\78cad48cfb63de8347a6d60e74ec9165\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\611d7470e20f47cd7a9e1990e85f7e07\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\6022ac2dcd4e4cd14917bfdc2e0968f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\f53e50ac6a703f1a74a3c756ec3b20f9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.PhilJay:MPAndroidChart-Realm:v2.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-Realm-v2.0.2.aar\1e97cc365f4e218a443279c1a74aed28\AndroidManifest.xml:2:1-16:12
+MERGED from [:MPChartLib] C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\a453717f2055fdbde923b4563f9bbd1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\b9b8f416f266a338f9f38ff73b6eff78\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\b99b6bdb10d4df4e76e05093f2e35299\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d803f829580217c2a4ff14612067324e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\1f579a590c7ed846b06d44f687bbadbb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\aafe5b0e6aef034b038f56c0edc4aee6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\5f6983e90091cfdd03bf291254d93a7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5e5ce4057c3b0630361d98194d67504d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\a997cdbafb37911aedbfb532ff2057a8\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:3:5-49
+	android:versionName
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\efea4dabdb2080f3ae2a3fc1483a55b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\efea4dabdb2080f3ae2a3fc1483a55b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\78cad48cfb63de8347a6d60e74ec9165\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\78cad48cfb63de8347a6d60e74ec9165\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\611d7470e20f47cd7a9e1990e85f7e07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\611d7470e20f47cd7a9e1990e85f7e07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\6022ac2dcd4e4cd14917bfdc2e0968f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\6022ac2dcd4e4cd14917bfdc2e0968f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\f53e50ac6a703f1a74a3c756ec3b20f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\f53e50ac6a703f1a74a3c756ec3b20f9\AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart-Realm:v2.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-Realm-v2.0.2.aar\1e97cc365f4e218a443279c1a74aed28\AndroidManifest.xml:12:5-14:41
+MERGED from [com.github.PhilJay:MPAndroidChart-Realm:v2.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-Realm-v2.0.2.aar\1e97cc365f4e218a443279c1a74aed28\AndroidManifest.xml:12:5-14:41
+MERGED from [:MPChartLib] C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-19:41
+MERGED from [:MPChartLib] C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-19:41
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\a453717f2055fdbde923b4563f9bbd1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\a453717f2055fdbde923b4563f9bbd1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\b9b8f416f266a338f9f38ff73b6eff78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\b9b8f416f266a338f9f38ff73b6eff78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\b99b6bdb10d4df4e76e05093f2e35299\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\b99b6bdb10d4df4e76e05093f2e35299\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d803f829580217c2a4ff14612067324e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d803f829580217c2a4ff14612067324e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\1f579a590c7ed846b06d44f687bbadbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\1f579a590c7ed846b06d44f687bbadbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\aafe5b0e6aef034b038f56c0edc4aee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\aafe5b0e6aef034b038f56c0edc4aee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\5f6983e90091cfdd03bf291254d93a7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\5f6983e90091cfdd03bf291254d93a7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5e5ce4057c3b0630361d98194d67504d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5e5ce4057c3b0630361d98194d67504d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\a997cdbafb37911aedbfb532ff2057a8\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\YuChaoStudent\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\a997cdbafb37911aedbfb532ff2057a8\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+		INJECTED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:10:22-78
+application
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:12:5-69:19
+	android:label
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:16:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:14:9-43
+	android:icon
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:17:9-40
+activity#com.xxmassdeveloper.mpchartexample.notimportant.MainActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:19:13-88
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:24:27-74
+activity#com.xxmassdeveloper.mpchartexample.LineChartActivity1
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:27:9-64
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:27:19-52
+activity#com.xxmassdeveloper.mpchartexample.LineChartActivity2
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:28:9-64
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:28:19-52
+activity#com.xxmassdeveloper.mpchartexample.LineChartTime
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:29:9-60
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:29:19-48
+activity#com.xxmassdeveloper.mpchartexample.BarChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:30:9-62
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:30:19-50
+activity#com.xxmassdeveloper.mpchartexample.HorizontalBarChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:31:3-66
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:31:13-54
+activity#com.xxmassdeveloper.mpchartexample.PieChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:32:9-62
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:32:19-50
+activity#com.xxmassdeveloper.mpchartexample.PiePolylineChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:33:9-70
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:33:19-58
+activity#com.xxmassdeveloper.mpchartexample.MultiLineChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:34:9-68
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:34:19-56
+activity#com.xxmassdeveloper.mpchartexample.BarChartActivityMultiDataset
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:35:9-74
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:35:19-62
+activity#com.xxmassdeveloper.mpchartexample.DrawChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:36:9-63
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:36:19-51
+activity#com.xxmassdeveloper.mpchartexample.ScatterChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:37:9-66
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:37:19-54
+activity#com.xxmassdeveloper.mpchartexample.BubbleChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:38:9-65
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:38:19-53
+activity#com.xxmassdeveloper.mpchartexample.fragments.SimpleChartDemo
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:39:9-106
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:39:19-94
+activity#com.xxmassdeveloper.mpchartexample.ListViewBarChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:40:9-70
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:40:19-58
+activity#com.xxmassdeveloper.mpchartexample.ListViewMultiChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:41:9-72
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:41:19-60
+activity#com.xxmassdeveloper.mpchartexample.StackedBarActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:42:9-64
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:42:19-52
+activity#com.xxmassdeveloper.mpchartexample.AnotherBarActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:43:9-64
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:43:19-52
+activity#com.xxmassdeveloper.mpchartexample.InvertedLineChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:44:9-71
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:44:19-59
+activity#com.xxmassdeveloper.mpchartexample.CandleStickChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:45:9-70
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:45:19-58
+activity#com.xxmassdeveloper.mpchartexample.CubicLineChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:46:9-68
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:46:19-56
+activity#com.xxmassdeveloper.mpchartexample.RadarChartActivitry
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:47:9-65
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:47:19-53
+activity#com.xxmassdeveloper.mpchartexample.LineChartActivityColored
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:48:9-70
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:48:19-58
+activity#com.xxmassdeveloper.mpchartexample.DynamicalAddingActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:49:9-69
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:49:19-57
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityLine
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:50:9-78
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:50:19-66
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityBar
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:51:9-77
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:51:19-65
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityHorizontalBar
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:52:9-87
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:52:19-75
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityScatter
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:53:9-81
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:53:19-69
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityCandle
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:54:9-80
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:54:19-68
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityBubble
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:55:9-80
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:55:19-68
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityPie
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:56:9-77
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:56:19-65
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmDatabaseActivityRadar
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:57:9-79
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:57:19-67
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmMainActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:58:9-70
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:58:19-58
+activity#com.xxmassdeveloper.mpchartexample.RealtimeLineChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:59:9-71
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:59:19-59
+activity#com.xxmassdeveloper.mpchartexample.CombinedChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:60:9-67
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:60:19-55
+activity#com.xxmassdeveloper.mpchartexample.PerformanceLineChart
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:61:9-66
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:61:19-54
+activity#com.xxmassdeveloper.mpchartexample.BarChartActivitySinus
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:62:9-67
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:62:19-55
+activity#com.xxmassdeveloper.mpchartexample.ScrollViewActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:63:9-64
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:63:19-52
+activity#com.xxmassdeveloper.mpchartexample.StackedBarActivityNegative
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:64:9-72
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:64:19-60
+activity#com.xxmassdeveloper.mpchartexample.realm.RealmWikiExample
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:65:9-69
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:65:19-57
+activity#com.xxmassdeveloper.mpchartexample.BarChartPositiveNegative
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:66:9-71
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:66:19-59
+activity#com.xxmassdeveloper.mpchartexample.FilledLineActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:67:9-65
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:67:19-53
+activity#com.xxmassdeveloper.mpchartexample.HalfPieChartActivity
+ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:68:9-67
+	android:name
+		ADDED from C:\Users\YuChaoStudent\Desktop\Project\FITDAY\MPChartExample\AndroidManifest.xml:68:19-55

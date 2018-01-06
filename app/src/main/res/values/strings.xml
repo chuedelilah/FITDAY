@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">FITDAY</string>
     <string name="title_activity_login">Login</string>
+
+    <string name="name">名稱</string>
+    <string name="calories">卡路里</string>
+    <string name="protein">蛋白質</string>
+    <string name="carbohydrates">碳水化合物</string>
+    <string name="fat">脂肪</string>
+    <string name="calcium">鈣</string>
+    <string name="cancel">刪除</string>
+    <string name="ok">確認</string>
+    <string name="kcal">kcal</string>
+    <string name="g">g</string>
+    <string name="mg">mg</string>
+    <string name="breakfast">早餐</string>
+    <string name="lunch">午餐</string>
+    <string name="dinner">晚餐</string>
+    <string name="other">其他</string>
+    <string name="dialog_message">訊息</string>
+    <string name="dialog_title">標題</string>
 </resources>

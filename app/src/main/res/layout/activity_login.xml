@@ -58,14 +58,15 @@
                         app:srcCompat="@drawable/avatar" />
 
                     <EditText
+                        android:id="@+id/account"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:autoText="false"
                         android:ems="10"
+                        android:hint="使用者名稱"
                         android:inputType="textPersonName"
-                        android:singleLine="false"
-                        android:text="使用者名稱" />
+                        android:singleLine="false" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -81,6 +82,7 @@
                         app:srcCompat="@drawable/padlock" />
 
                     <EditText
+                        android:id="@+id/password"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"

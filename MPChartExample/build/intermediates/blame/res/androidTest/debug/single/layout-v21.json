@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\YuChaoStudent\\Desktop\\Project\\FITDAY\\MPChartExample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5ce4057c3b0630361d98194d67504d\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\YuChaoStudent\\Desktop\\Project\\FITDAY\\MPChartExample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5ce4057c3b0630361d98194d67504d\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\YuChaoStudent\\Desktop\\Project\\FITDAY\\MPChartExample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5ce4057c3b0630361d98194d67504d\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\YuChaoStudent\\Desktop\\Project\\FITDAY\\MPChartExample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\YuChaoStudent\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5e5ce4057c3b0630361d98194d67504d\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
