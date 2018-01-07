@@ -58,7 +58,12 @@ ImageView back,barcode,voice;
         voice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(view.getContext(), "voice test", Toast.LENGTH_SHORT).show();
+                //點擊語音按鈕
+
+                Intent intent = new Intent();   //活動
+                intent.setClass(AddActivity.this,MainActivitystt.class);    //設定要置換的activity
+                startActivity(intent);      //啟動設定的activity
+                //Toast.makeText(view.getContext(), "voice test", Toast.LENGTH_SHORT).show();
 
             }
         });

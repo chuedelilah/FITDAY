@@ -142,7 +142,7 @@ public class home_weight extends AppCompatActivity implements View.OnClickListen
             List<AdRecord> records = AdRecord
                     .parseScanRecord(scanRecord);
             XenonData xbData = null;
-            // get advertise Name
+                // get advertise Name
             for (AdRecord packet : records) {
                 Log.i(TAG, "BG Service getType:" + packet.getType());
                 // Find the device name record
