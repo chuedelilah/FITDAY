@@ -6,6 +6,8 @@ import android.support.v4.widget.SimpleCursorAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.ArrayList;
+import java.util.List;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,6 +23,7 @@ import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
+import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 public class FoodActivity extends AppCompatActivity {
@@ -28,7 +31,7 @@ public class FoodActivity extends AppCompatActivity {
 
     PieChart pieChart ;
     ImageView add,back,edit;
-    ArrayList<Entry> entries ;
+    List<PieEntry> entries ;
     ArrayList<String> PieEntryLabels ;
     PieDataSet pieDataSet ;
     PieData pieData ;
@@ -128,7 +131,9 @@ public class FoodActivity extends AppCompatActivity {
         pieChart.setTransparentCircleAlpha(0);
         pieChart.setCenterText(useCalories+"/"+allCalories);
         pieChart.setCenterTextSize(16);
-        pieData = new PieData(PieEntryLabels, pieDataSet);
+        //pieData = new PieData(PieEntryLabels, pieDataSet);
+        pieData = new PieData( pieDataSet);
+
         pieDataSet.setSliceSpace(2);
         pieDataSet.setValueTextSize(12);
         pieDataSet.setColors(colors);
@@ -139,10 +144,10 @@ public class FoodActivity extends AppCompatActivity {
 
     public void AddValuesToPIEENTRY(){
 
-        entries.add(new BarEntry(carbs, 0));
-        entries.add(new BarEntry(fats, 1));
-        entries.add(new BarEntry(protenis, 2));
-        entries.add(new BarEntry(blankCalories, 3));
+        entries.add(new PieEntry(carbs, 0));
+        entries.add(new PieEntry(fats, 1));
+        entries.add(new PieEntry(protenis, 2));
+        entries.add(new PieEntry(blankCalories, 3));
     }
 
     public void AddValuesToPieEntryLabels(){

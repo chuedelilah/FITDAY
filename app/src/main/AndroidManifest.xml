@@ -14,6 +14,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -37,6 +39,7 @@
         <activity android:name=".AddActivity" />
         <activity android:name=".MainActivitystt" />
         <activity android:name=".MainActivityqr" />
+        <activity android:name=".Map" />
 
         <service
             android:name=".BluetoothLeService"

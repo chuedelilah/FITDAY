@@ -60,7 +60,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="341dp"
+            android:layout_height="410dp"
             android:background="@drawable/backgroud"
             android:orientation="vertical">
 
@@ -76,32 +76,12 @@
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="確定"
+                android:textSize="14sp" />
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="362dp"
-            android:layout_height="69dp"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="228dp">
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="358dp"
-                android:layout_height="19dp"
-                android:layout_weight="1"
-                android:text="TextView"
-                android:visibility="invisible" />
-
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="111dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:background="@drawable/reply_1" />
-        </LinearLayout>
 
     </LinearLayout>
 

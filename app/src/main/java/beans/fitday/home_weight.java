@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Handler;
 import android.os.IBinder;
@@ -22,7 +23,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
-public class home_weight extends AppCompatActivity implements View.OnClickListener{
+public class home_weight extends AppCompatActivity implements View.OnClickListener {
     Button B;
     private final static String TAG = MainActivity.class.getSimpleName();
     private Button button4;
@@ -71,13 +72,20 @@ public class home_weight extends AppCompatActivity implements View.OnClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_weight);
 
-        B  = (Button)findViewById(R.id.button9);
+//        SharedPreferences sharedPreferences = getSharedPreferences("data" , MODE_PRIVATE);
+//        //取得SharedPreferences ， 丟入的參數為("名稱" , 存取權限)
+//
+//        sharedPreferences.edit().putString("weight" , "100").apply();
+//        //存入資料，丟入的參數為(key , value)
+//
+//        sharedPreferences.getString("weight" ,"52");
+//        //取出資料， 丟入的參數為(key , 若是沒值，預設為多少)
+        B  = (Button)findViewById(R.id.button4);
         B.setOnClickListener(this);
         //按鈕事件
         button4 = (Button) findViewById(R.id.button4);
         button4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 // Check if BLE is supported on the device.
                 if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE)) {
                     Toast.makeText(home_weight.this, "BLE is not supported in this device!", Toast.LENGTH_SHORT).show();
@@ -96,7 +104,6 @@ public class home_weight extends AppCompatActivity implements View.OnClickListen
                     startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
                 }
                 mBleScanTagId = XenonHelper.XENON_ADVERTISING_NAME;
-
                 // BLE Setting
                 mBluetoothAdapter = bluetoothManager.getAdapter();
 
@@ -112,7 +119,6 @@ public class home_weight extends AppCompatActivity implements View.OnClickListen
 
 
                 }
-
             }
         });
     }
@@ -121,7 +127,7 @@ public class home_weight extends AppCompatActivity implements View.OnClickListen
         if(v == B)
         {
             Intent intent = new Intent();   //活動
-            intent.setClass(home_weight.this, home.class);    //設定要置換的activity
+            intent.setClass(home_weight.this, Map.class);    //設定要置換的activity
             startActivity(intent);      //啟動設定的activity
             //home.this.finish();     //原本舊的activity結束
 
