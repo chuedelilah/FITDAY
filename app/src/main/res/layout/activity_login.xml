@@ -146,6 +146,12 @@
                 android:textSize="18sp" />
 
 
+            <WebView
+                android:id="@+id/WebView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
             <Button
                 android:id="@+id/RegistBn"
                 android:layout_width="match_parent"
