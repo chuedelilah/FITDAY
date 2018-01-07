@@ -51,7 +51,10 @@ ImageView back,barcode,voice;
         barcode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(view.getContext(), "barcode test", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();   //活動
+                intent.setClass(AddActivity.this,MainActivityqr.class);    //設定要置換的activity
+                startActivity(intent);      //啟動設定的activity
+                //Toast.makeText(view.getContext(), "barcode test", Toast.LENGTH_SHORT).show();
             }
         });
 
